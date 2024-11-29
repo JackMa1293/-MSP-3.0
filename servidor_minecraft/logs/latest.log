@@ -573,3 +573,5 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [29Nov2024 01:35:44.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
 [29Nov2024 01:36:10.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
 [29Nov2024 01:37:45.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
+[29Nov2024 01:40:54.424] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/16106, l='ServerLevel[world]', x=191.85, y=101.00, z=651.80] died, message: 'Farmer froze to death'
+[29Nov2024 01:46:29.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AbrahamUps: Set own game mode to Spectator Mode]
