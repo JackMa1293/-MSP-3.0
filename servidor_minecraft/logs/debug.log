@@ -8529,3 +8529,25 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [29Nov2024 01:15:32.531] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
 [29Nov2024 01:15:32.579] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
 [29Nov2024 01:15:32.637] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[29Nov2024 01:18:48.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:18:50.099] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:18:55.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:18:57.571] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:19:11.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:13.200] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:19:24.652] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Nov2024 01:19:24.670] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[29Nov2024 01:19:25.350] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[29Nov2024 01:19:25.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:25.455] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[29Nov2024 01:19:26.822] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:19:42.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:43.771] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:19:49.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:51.130] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:20:13.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:20:14.476] [Server thread/DEBUG] [twilightforest/]: Player AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032) respawned and received items held in storage
+[29Nov2024 01:20:45.579] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
+[29Nov2024 01:20:45.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
+[29Nov2024 01:24:24.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[29Nov2024 01:24:24.599] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

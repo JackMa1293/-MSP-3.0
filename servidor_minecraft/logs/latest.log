@@ -554,3 +554,12 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [29Nov2024 01:11:53.071] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
 [29Nov2024 01:11:53.071] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: dungeons_arise:underworld/foundry/foundry_corridor_gears
 [29Nov2024 01:14:59.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
+[29Nov2024 01:18:48.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:18:55.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:11.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:25.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:42.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:19:49.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:20:13.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
+[29Nov2024 01:20:45.579] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
+[29Nov2024 01:20:45.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
