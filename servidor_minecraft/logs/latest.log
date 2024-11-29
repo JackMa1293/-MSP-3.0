@@ -563,3 +563,13 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [29Nov2024 01:20:13.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Nightmare Stalker
 [29Nov2024 01:20:45.579] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
 [29Nov2024 01:20:45.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
+[29Nov2024 01:33:04.587] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AbrahamUps is 770a249a-151d-44aa-8e30-622ebfdd7032
+[29Nov2024 01:33:09.883] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:55398] logged in with entity id 11196 at (118.30000001192093, 73.0, 559.5812539808936)
+[29Nov2024 01:33:09.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
+[29Nov2024 01:33:09.916] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
+[29Nov2024 01:33:24.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps fell from a high place
+[29Nov2024 01:34:39.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was slain by Ghost
+[29Nov2024 01:35:23.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
+[29Nov2024 01:35:44.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
+[29Nov2024 01:36:10.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
+[29Nov2024 01:37:45.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps was shot by Skeleton
