@@ -502,3 +502,4 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [30Nov2024 23:38:38.299] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:53443] logged in with entity id 836 at (-1.0795016213805404, 94.0, 70.15149903455841)
 [30Nov2024 23:38:38.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
 [30Nov2024 23:38:38.803] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
+[30Nov2024 23:51:50.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps withered away
