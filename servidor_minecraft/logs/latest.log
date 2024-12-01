@@ -1,89 +1,89 @@
-[01Dec2024 03:24:43.038] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[01Dec2024 03:24:43.043] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[01Dec2024 03:24:43.946] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Dec2024 03:24:44.004] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/-MSP-3.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[01Dec2024 03:24:44.433] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[01Dec2024 03:24:44.435] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Dec2024 03:24:44.449] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Dec2024 03:24:44.450] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[01Dec2024 03:24:44.729] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[01Dec2024 03:24:44.732] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
-[01Dec2024 03:24:47.782] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Dec2024 03:24:48.001] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
-[01Dec2024 03:24:48.019] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[01Dec2024 03:24:48.038] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Dec2024 03:24:48.218] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177_/META-INF/jarjar/flywheel-forge-1.20.1-0.6.10-7.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@28ee882c, /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211!/=fuzs.puzzleslib.impl.core.ForgeModContainer@78d73b1b, /workspaces/-MSP-3.0/servidor_minecraft/mods/alexscaves-2.0.2.jar#165!/=fuzs.puzzleslib.impl.core.ForgeModContainer@238291d4, /workspaces/-MSP-3.0/servidor_minecraft/mods/xptome-1.20.1-2.2.jar#223!/=fuzs.puzzleslib.impl.core.ForgeModContainer@34edd065, /workspaces/-MSP-3.0/servidor_minecraft/mods/vanillaplustools-1.20-1.0.jar#220!/=fuzs.puzzleslib.impl.core.ForgeModContainer@681e913c, /workspaces/-MSP-3.0/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar#196!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29d070c7, /workspaces/-MSP-3.0/servidor_minecraft/mods/torchmaster-20.1.6.jar#217!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1eeb5818, /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#234!/=fuzs.puzzleslib.impl.core.ForgeModContainer@44dfdd58, /workspaces/-MSP-3.0/servidor_minecraft/mods/journeymap-1.20.1-5.10.0-forge.jar#203!/=fuzs.puzzleslib.impl.core.ForgeModContainer@58d4238e, /workspaces/-MSP-3.0/servidor_minecraft/mods/structureessentials-1.20.1-3.3.jar#214!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72a8361b, /workspaces/-MSP-3.0/servidor_minecraft/mods/waystones-forge-1.20-14.1.4.jar#221!/=fuzs.puzzleslib.impl.core.ForgeModContainer@36478bce, /workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177!/=fuzs.puzzleslib.impl.core.ForgeModContainer@c48b543, /workspaces/-MSP-3.0/servidor_minecraft/mods/amendments-1.20-1.2.11.jar#167!/=fuzs.puzzleslib.impl.core.ForgeModContainer@75793f17, /workspaces/-MSP-3.0/servidor_minecraft/mods/easy-villagers-forge-1.20.1-1.1.4.jar#186!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4652c74d, /workspaces/-MSP-3.0/servidor_minecraft/mods/architectury-9.2.14-forge.jar#169!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4cc12db2, /workspaces/-MSP-3.0/servidor_minecraft/mods/elevatorid-1.20.1-lex-1.9.jar#188!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5ea7bc4, /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39d77de9, /workspaces/-MSP-3.0/servidor_minecraft/mods/aquamirae-6.API15.jar#168!/=fuzs.puzzleslib.impl.core.ForgeModContainer@696fad31, /workspaces/-MSP-3.0/servidor_minecraft/mods/Deep Dark Regrowth 1.2.6.1 - 1.20.1.jar#181!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c06b113, /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_villages-1.0.1+1.20.1-forge (1).jar#200!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a64cb0c, /workspaces/-MSP-3.0/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#194!/=fuzs.puzzleslib.impl.core.ForgeModContainer@785ed99c, /workspaces/-MSP-3.0/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#185!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c4ce583, /workspaces/-MSP-3.0/servidor_minecraft/mods/betterarcheology-1.1.9-1.20.1.jar#172!/=fuzs.puzzleslib.impl.core.ForgeModContainer@755b5f30, /workspaces/-MSP-3.0/servidor_minecraft/mods/nyfsspiders-forge-1.20.1-2.1.1.jar#209!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29bbc63c, /workspaces/-MSP-3.0/servidor_minecraft/mods/crust-1.20.1-2.3.3.jar#178!/=fuzs.puzzleslib.impl.core.ForgeModContainer@272778ae, /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar#212!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2cccf134, /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#225!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3c18942, /workspaces/-MSP-3.0/servidor_minecraft/mods/lionfishapi-1.9.jar#206!/=fuzs.puzzleslib.impl.core.ForgeModContainer@743c3520, /workspaces/-MSP-3.0/servidor_minecraft/mods/awesomedungeon-forge-1.20.1-3.2.0.jar#170!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6842c101, /workspaces/-MSP-3.0/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#216!/=fuzs.puzzleslib.impl.core.ForgeModContainer@234cd86c, /workspaces/-MSP-3.0/servidor_minecraft/mods/YetAnotherConfigLib-3.5.0+1.20.1-forge.jar#224!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c48cede, /workspaces/-MSP-3.0/servidor_minecraft/mods/EasyEmerald-Forge-1.20.1-1.5.8.jar#187!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39c87b42, /workspaces/-MSP-3.0/servidor_minecraft/mods/FallingTree-1.20.1-4.3.4.jar#191!/=fuzs.puzzleslib.impl.core.ForgeModContainer@47fcefb3, /workspaces/-MSP-3.0/servidor_minecraft/mods/EnchantingInfuser-v8.0.2-1.20.1-Forge.jar#189!/=fuzs.puzzleslib.impl.core.ForgeModContainer@236c098, /workspaces/-MSP-3.0/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#222!/=fuzs.puzzleslib.impl.core.ForgeModContainer@68e2d03e, /workspaces/-MSP-3.0/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.3.jar#201!/=fuzs.puzzleslib.impl.core.ForgeModContainer@120aa40b, /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215_/META-INF/jars/mixinsquared-forge-0.1.1.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@32ab408e, /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#272!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6ad6443, /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#226!/=fuzs.puzzleslib.impl.core.ForgeModContainer@78b03788, /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#227!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f5dfe69, /workspaces/-MSP-3.0/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#192!/=fuzs.puzzleslib.impl.core.ForgeModContainer@571a663c, /workspaces/-MSP-3.0/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar#218!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a788fe0, /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207!/=fuzs.puzzleslib.impl.core.ForgeModContainer@430df350, /workspaces/-MSP-3.0/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#197!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1373e3ee, /workspaces/-MSP-3.0/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar#193!/=fuzs.puzzleslib.impl.core.ForgeModContainer@175c5c3a, /workspaces/-MSP-3.0/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#176!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69a5c6be, /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#229!/=fuzs.puzzleslib.impl.core.ForgeModContainer@451e2fa9, /workspaces/-MSP-3.0/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#164!/=fuzs.puzzleslib.impl.core.ForgeModContainer@497ed877, /workspaces/-MSP-3.0/servidor_minecraft/mods/Dungeon Crawl-1.20.1-2.3.14.jar#183!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3cb6e0ee, /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207_/META-INF/jars/mixinextras-forge-0.3.6.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7b6141f0, /workspaces/-MSP-3.0/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2508-universal.jar#219!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4fb64a52, /workspaces/-MSP-3.0/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar#198!/=fuzs.puzzleslib.impl.core.ForgeModContainer@70b48eb3, /workspaces/-MSP-3.0/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.5_halloween_event.jar#173!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7b8ea1db, /workspaces/-MSP-3.0/servidor_minecraft/mods/chococraft-1.20.1-forge-0.9.11.jar#174!/=fuzs.puzzleslib.impl.core.ForgeModContainer@a91119b, /workspaces/-MSP-3.0/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#205!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77083e41, /workspaces/-MSP-3.0/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#195!/=fuzs.puzzleslib.impl.core.ForgeModContainer@231df705, /workspaces/-MSP-3.0/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#180!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2d130ac4, /workspaces/-MSP-3.0/servidor_minecraft/mods/citadel-2.6.0-1.20.1.jar#175!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2f0ccb34, /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171!/=fuzs.puzzleslib.impl.core.ForgeModContainer@194012a2, /workspaces/-MSP-3.0/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#179!/=fuzs.puzzleslib.impl.core.ForgeModContainer@55296b50, /workspaces/-MSP-3.0/servidor_minecraft/mods/deeperdarker-forge-1.20.1-1.2.1.jar#182!/=fuzs.puzzleslib.impl.core.ForgeModContainer@60591e1b, /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_api-1.5.1+1.20.1-forge.jar#199!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29c53c4f, /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171_/META-INF/jarjar/kuma-api-forge-20.1.8+1.20.1.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3009eed7, /workspaces/-MSP-3.0/servidor_minecraft/mods/jei-1.20.1-forge-15.20.0.102.jar#202!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ee4706d, /workspaces/-MSP-3.0/servidor_minecraft/mods/dungeons-and-taverns-3.0.3.f[Forge].jar#184!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6650a6c, /workspaces/-MSP-3.0/servidor_minecraft/mods/alexsmobs-1.22.8.jar#166!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64279ab, /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanWeaponry-1.20.1-forge-3.1.3-all.jar#213!/=fuzs.puzzleslib.impl.core.ForgeModContainer@794240e2, /workspaces/-MSP-3.0/servidor_minecraft/mods/obscure_api-15.jar#210!/=fuzs.puzzleslib.impl.core.ForgeModContainer@74a820bf, /workspaces/-MSP-3.0/servidor_minecraft/mods/nordic_structures-1.5.7-forge-1.20.1.jar#208!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a30722c, /workspaces/-MSP-3.0/servidor_minecraft/mods/L_Enders_Cataclysm-2.05 - 1.20.1.jar#204!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f2ac7e0}
-[01Dec2024 03:24:48.219] [main/INFO] [Puzzles Lib/]: Scheme for flywheel: /workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177!/
-[01Dec2024 03:24:48.220] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211!/
-[01Dec2024 03:24:48.220] [main/INFO] [Puzzles Lib/]: Scheme for alexscaves: /workspaces/-MSP-3.0/servidor_minecraft/mods/alexscaves-2.0.2.jar#165!/
-[01Dec2024 03:24:48.220] [main/INFO] [Puzzles Lib/]: Scheme for xpbook: /workspaces/-MSP-3.0/servidor_minecraft/mods/xptome-1.20.1-2.2.jar#223!/
-[01Dec2024 03:24:48.220] [main/INFO] [Puzzles Lib/]: Scheme for vanillaplustools: /workspaces/-MSP-3.0/servidor_minecraft/mods/vanillaplustools-1.20-1.0.jar#220!/
-[01Dec2024 03:24:48.220] [main/INFO] [Puzzles Lib/]: Scheme for hopour: /workspaces/-MSP-3.0/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar#196!/
-[01Dec2024 03:24:48.221] [main/INFO] [Puzzles Lib/]: Scheme for torchmaster: /workspaces/-MSP-3.0/servidor_minecraft/mods/torchmaster-20.1.6.jar#217!/
-[01Dec2024 03:24:48.221] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#234!/
-[01Dec2024 03:24:48.221] [main/INFO] [Puzzles Lib/]: Scheme for journeymap: /workspaces/-MSP-3.0/servidor_minecraft/mods/journeymap-1.20.1-5.10.0-forge.jar#203!/
-[01Dec2024 03:24:48.221] [main/INFO] [Puzzles Lib/]: Scheme for structureessentials: /workspaces/-MSP-3.0/servidor_minecraft/mods/structureessentials-1.20.1-3.3.jar#214!/
-[01Dec2024 03:24:48.221] [main/INFO] [Puzzles Lib/]: Scheme for waystones: /workspaces/-MSP-3.0/servidor_minecraft/mods/waystones-forge-1.20-14.1.4.jar#221!/
-[01Dec2024 03:24:48.222] [main/INFO] [Puzzles Lib/]: Scheme for create: /workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177!/
-[01Dec2024 03:24:48.222] [main/INFO] [Puzzles Lib/]: Scheme for amendments: /workspaces/-MSP-3.0/servidor_minecraft/mods/amendments-1.20-1.2.11.jar#167!/
-[01Dec2024 03:24:48.222] [main/INFO] [Puzzles Lib/]: Scheme for easy_villagers: /workspaces/-MSP-3.0/servidor_minecraft/mods/easy-villagers-forge-1.20.1-1.1.4.jar#186!/
-[01Dec2024 03:24:48.222] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/-MSP-3.0/servidor_minecraft/mods/architectury-9.2.14-forge.jar#169!/
-[01Dec2024 03:24:48.222] [main/INFO] [Puzzles Lib/]: Scheme for elevatorid: /workspaces/-MSP-3.0/servidor_minecraft/mods/elevatorid-1.20.1-lex-1.9.jar#188!/
-[01Dec2024 03:24:48.223] [main/INFO] [Puzzles Lib/]: Scheme for supplementaries: /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215!/
-[01Dec2024 03:24:48.223] [main/INFO] [Puzzles Lib/]: Scheme for aquamirae: /workspaces/-MSP-3.0/servidor_minecraft/mods/aquamirae-6.API15.jar#168!/
-[01Dec2024 03:24:48.223] [main/INFO] [Puzzles Lib/]: Scheme for deep_dark_regrowth: /workspaces/-MSP-3.0/servidor_minecraft/mods/Deep Dark Regrowth 1.2.6.1 - 1.20.1.jar#181!/
-[01Dec2024 03:24:48.223] [main/INFO] [Puzzles Lib/]: Scheme for integrated_villages: /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_villages-1.0.1+1.20.1-forge (1).jar#200!/
-[01Dec2024 03:24:48.223] [main/INFO] [Puzzles Lib/]: Scheme for goblintraders: /workspaces/-MSP-3.0/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#194!/
-[01Dec2024 03:24:48.224] [main/INFO] [Puzzles Lib/]: Scheme for dungeons_arise: /workspaces/-MSP-3.0/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#185!/
-[01Dec2024 03:24:48.224] [main/INFO] [Puzzles Lib/]: Scheme for betterarcheology: /workspaces/-MSP-3.0/servidor_minecraft/mods/betterarcheology-1.1.9-1.20.1.jar#172!/
-[01Dec2024 03:24:48.224] [main/INFO] [Puzzles Lib/]: Scheme for nyfsspiders: /workspaces/-MSP-3.0/servidor_minecraft/mods/nyfsspiders-forge-1.20.1-2.1.1.jar#209!/
-[01Dec2024 03:24:48.224] [main/INFO] [Puzzles Lib/]: Scheme for crust: /workspaces/-MSP-3.0/servidor_minecraft/mods/crust-1.20.1-2.3.3.jar#178!/
-[01Dec2024 03:24:48.224] [main/INFO] [Puzzles Lib/]: Scheme for spartanshields: /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar#212!/
-[01Dec2024 03:24:48.224] [main/INFO] [Puzzles Lib/]: Scheme for yungsapi: /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#225!/
-[01Dec2024 03:24:48.225] [main/INFO] [Puzzles Lib/]: Scheme for lionfishapi: /workspaces/-MSP-3.0/servidor_minecraft/mods/lionfishapi-1.9.jar#206!/
-[01Dec2024 03:24:48.225] [main/INFO] [Puzzles Lib/]: Scheme for awesomedungeon: /workspaces/-MSP-3.0/servidor_minecraft/mods/awesomedungeon-forge-1.20.1-3.2.0.jar#170!/
-[01Dec2024 03:24:48.225] [main/INFO] [Puzzles Lib/]: Scheme for graveyard: /workspaces/-MSP-3.0/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#216!/
-[01Dec2024 03:24:48.226] [main/INFO] [Puzzles Lib/]: Scheme for yet_another_config_lib_v3: /workspaces/-MSP-3.0/servidor_minecraft/mods/YetAnotherConfigLib-3.5.0+1.20.1-forge.jar#224!/
-[01Dec2024 03:24:48.226] [main/INFO] [Puzzles Lib/]: Scheme for easy_emerald: /workspaces/-MSP-3.0/servidor_minecraft/mods/EasyEmerald-Forge-1.20.1-1.5.8.jar#187!/
-[01Dec2024 03:24:48.226] [main/INFO] [Puzzles Lib/]: Scheme for fallingtree: /workspaces/-MSP-3.0/servidor_minecraft/mods/FallingTree-1.20.1-4.3.4.jar#191!/
-[01Dec2024 03:24:48.227] [main/INFO] [Puzzles Lib/]: Scheme for enchantinginfuser: /workspaces/-MSP-3.0/servidor_minecraft/mods/EnchantingInfuser-v8.0.2-1.20.1-Forge.jar#189!/
-[01Dec2024 03:24:48.227] [main/INFO] [Puzzles Lib/]: Scheme for weaponmaster_ydm: /workspaces/-MSP-3.0/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#222!/
-[01Dec2024 03:24:48.227] [main/INFO] [Puzzles Lib/]: Scheme for jade: /workspaces/-MSP-3.0/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.3.jar#201!/
-[01Dec2024 03:24:48.227] [main/INFO] [Puzzles Lib/]: Scheme for mixinsquared: /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215!/
-[01Dec2024 03:24:48.227] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211!/
-[01Dec2024 03:24:48.228] [main/INFO] [Puzzles Lib/]: Scheme for betterdungeons: /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#226!/
-[01Dec2024 03:24:48.228] [main/INFO] [Puzzles Lib/]: Scheme for betterstrongholds: /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#227!/
-[01Dec2024 03:24:48.228] [main/INFO] [Puzzles Lib/]: Scheme for framework: /workspaces/-MSP-3.0/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#192!/
-[01Dec2024 03:24:48.228] [main/INFO] [Puzzles Lib/]: Scheme for travelersbackpack: /workspaces/-MSP-3.0/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar#218!/
-[01Dec2024 03:24:48.228] [main/INFO] [Puzzles Lib/]: Scheme for moonlight: /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207!/
-[01Dec2024 03:24:48.228] [main/INFO] [Puzzles Lib/]: Scheme for iceandfire: /workspaces/-MSP-3.0/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#197!/
-[01Dec2024 03:24:48.229] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/-MSP-3.0/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar#193!/
-[01Dec2024 03:24:48.229] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/-MSP-3.0/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#176!/
-[01Dec2024 03:24:48.229] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#229!/
-[01Dec2024 03:24:48.229] [main/INFO] [Puzzles Lib/]: Scheme for securitycraft: /workspaces/-MSP-3.0/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#164!/
-[01Dec2024 03:24:48.229] [main/INFO] [Puzzles Lib/]: Scheme for dungeoncrawl: /workspaces/-MSP-3.0/servidor_minecraft/mods/Dungeon Crawl-1.20.1-2.3.14.jar#183!/
-[01Dec2024 03:24:48.230] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207!/
-[01Dec2024 03:24:48.230] [main/INFO] [Puzzles Lib/]: Scheme for twilightforest: /workspaces/-MSP-3.0/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2508-universal.jar#219!/
-[01Dec2024 03:24:48.230] [main/INFO] [Puzzles Lib/]: Scheme for incendium: /workspaces/-MSP-3.0/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar#198!/
-[01Dec2024 03:24:48.231] [main/INFO] [Puzzles Lib/]: Scheme for born_in_chaos_v1: /workspaces/-MSP-3.0/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.5_halloween_event.jar#173!/
-[01Dec2024 03:24:48.231] [main/INFO] [Puzzles Lib/]: Scheme for chococraft: /workspaces/-MSP-3.0/servidor_minecraft/mods/chococraft-1.20.1-forge-0.9.11.jar#174!/
-[01Dec2024 03:24:48.231] [main/INFO] [Puzzles Lib/]: Scheme for libraryferret: /workspaces/-MSP-3.0/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#205!/
-[01Dec2024 03:24:48.231] [main/INFO] [Puzzles Lib/]: Scheme for gravestone: /workspaces/-MSP-3.0/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#195!/
-[01Dec2024 03:24:48.231] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/-MSP-3.0/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#180!/
-[01Dec2024 03:24:48.231] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/-MSP-3.0/servidor_minecraft/mods/citadel-2.6.0-1.20.1.jar#175!/
-[01Dec2024 03:24:48.232] [main/INFO] [Puzzles Lib/]: Scheme for balm: /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171!/
-[01Dec2024 03:24:48.232] [main/INFO] [Puzzles Lib/]: Scheme for cupboard: /workspaces/-MSP-3.0/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#179!/
-[01Dec2024 03:24:48.232] [main/INFO] [Puzzles Lib/]: Scheme for deeperdarker: /workspaces/-MSP-3.0/servidor_minecraft/mods/deeperdarker-forge-1.20.1-1.2.1.jar#182!/
-[01Dec2024 03:24:48.232] [main/INFO] [Puzzles Lib/]: Scheme for integrated_api: /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_api-1.5.1+1.20.1-forge.jar#199!/
-[01Dec2024 03:24:48.232] [main/INFO] [Puzzles Lib/]: Scheme for kuma_api: /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171!/
-[01Dec2024 03:24:48.233] [main/INFO] [Puzzles Lib/]: Scheme for jei: /workspaces/-MSP-3.0/servidor_minecraft/mods/jei-1.20.1-forge-15.20.0.102.jar#202!/
-[01Dec2024 03:24:48.233] [main/INFO] [Puzzles Lib/]: Scheme for mr_dungeons_andtaverns: /workspaces/-MSP-3.0/servidor_minecraft/mods/dungeons-and-taverns-3.0.3.f[Forge].jar#184!/
-[01Dec2024 03:24:48.233] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/-MSP-3.0/servidor_minecraft/mods/alexsmobs-1.22.8.jar#166!/
-[01Dec2024 03:24:48.233] [main/INFO] [Puzzles Lib/]: Scheme for spartanweaponry: /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanWeaponry-1.20.1-forge-3.1.3-all.jar#213!/
-[01Dec2024 03:24:48.233] [main/INFO] [Puzzles Lib/]: Scheme for obscure_api: /workspaces/-MSP-3.0/servidor_minecraft/mods/obscure_api-15.jar#210!/
-[01Dec2024 03:24:48.234] [main/INFO] [Puzzles Lib/]: Scheme for nordic_structures: /workspaces/-MSP-3.0/servidor_minecraft/mods/nordic_structures-1.5.7-forge-1.20.1.jar#208!/
-[01Dec2024 03:24:48.234] [main/INFO] [Puzzles Lib/]: Scheme for cataclysm: /workspaces/-MSP-3.0/servidor_minecraft/mods/L_Enders_Cataclysm-2.05 - 1.20.1.jar#204!/
-[01Dec2024 03:24:48.238] [main/INFO] [Puzzles Lib/]: Loading 70 mods:
+[01Dec2024 03:29:58.751] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[01Dec2024 03:29:58.755] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Dec2024 03:29:59.587] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Dec2024 03:29:59.635] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/-MSP-3.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[01Dec2024 03:29:59.984] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[01Dec2024 03:29:59.986] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Dec2024 03:30:00.006] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Dec2024 03:30:00.008] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Dec2024 03:30:00.279] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[01Dec2024 03:30:00.280] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[01Dec2024 03:30:03.199] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Dec2024 03:30:03.370] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[01Dec2024 03:30:03.398] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Dec2024 03:30:03.410] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Dec2024 03:30:03.605] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177_/META-INF/jarjar/flywheel-forge-1.20.1-0.6.10-7.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@681e913c, /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29d070c7, /workspaces/-MSP-3.0/servidor_minecraft/mods/alexscaves-2.0.2.jar#165!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1eeb5818, /workspaces/-MSP-3.0/servidor_minecraft/mods/xptome-1.20.1-2.2.jar#223!/=fuzs.puzzleslib.impl.core.ForgeModContainer@44dfdd58, /workspaces/-MSP-3.0/servidor_minecraft/mods/vanillaplustools-1.20-1.0.jar#220!/=fuzs.puzzleslib.impl.core.ForgeModContainer@58d4238e, /workspaces/-MSP-3.0/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar#196!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72a8361b, /workspaces/-MSP-3.0/servidor_minecraft/mods/torchmaster-20.1.6.jar#217!/=fuzs.puzzleslib.impl.core.ForgeModContainer@36478bce, /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#234!/=fuzs.puzzleslib.impl.core.ForgeModContainer@c48b543, /workspaces/-MSP-3.0/servidor_minecraft/mods/journeymap-1.20.1-5.10.0-forge.jar#203!/=fuzs.puzzleslib.impl.core.ForgeModContainer@75793f17, /workspaces/-MSP-3.0/servidor_minecraft/mods/structureessentials-1.20.1-3.3.jar#214!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4652c74d, /workspaces/-MSP-3.0/servidor_minecraft/mods/waystones-forge-1.20-14.1.4.jar#221!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4cc12db2, /workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5ea7bc4, /workspaces/-MSP-3.0/servidor_minecraft/mods/amendments-1.20-1.2.11.jar#167!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39d77de9, /workspaces/-MSP-3.0/servidor_minecraft/mods/easy-villagers-forge-1.20.1-1.1.4.jar#186!/=fuzs.puzzleslib.impl.core.ForgeModContainer@696fad31, /workspaces/-MSP-3.0/servidor_minecraft/mods/architectury-9.2.14-forge.jar#169!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c06b113, /workspaces/-MSP-3.0/servidor_minecraft/mods/elevatorid-1.20.1-lex-1.9.jar#188!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a64cb0c, /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215!/=fuzs.puzzleslib.impl.core.ForgeModContainer@785ed99c, /workspaces/-MSP-3.0/servidor_minecraft/mods/aquamirae-6.API15.jar#168!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c4ce583, /workspaces/-MSP-3.0/servidor_minecraft/mods/Deep Dark Regrowth 1.2.6.1 - 1.20.1.jar#181!/=fuzs.puzzleslib.impl.core.ForgeModContainer@755b5f30, /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_villages-1.0.1+1.20.1-forge (1).jar#200!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29bbc63c, /workspaces/-MSP-3.0/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#194!/=fuzs.puzzleslib.impl.core.ForgeModContainer@272778ae, /workspaces/-MSP-3.0/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#185!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2cccf134, /workspaces/-MSP-3.0/servidor_minecraft/mods/betterarcheology-1.1.9-1.20.1.jar#172!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3c18942, /workspaces/-MSP-3.0/servidor_minecraft/mods/nyfsspiders-forge-1.20.1-2.1.1.jar#209!/=fuzs.puzzleslib.impl.core.ForgeModContainer@743c3520, /workspaces/-MSP-3.0/servidor_minecraft/mods/crust-1.20.1-2.3.3.jar#178!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6842c101, /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar#212!/=fuzs.puzzleslib.impl.core.ForgeModContainer@234cd86c, /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#225!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c48cede, /workspaces/-MSP-3.0/servidor_minecraft/mods/lionfishapi-1.9.jar#206!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39c87b42, /workspaces/-MSP-3.0/servidor_minecraft/mods/awesomedungeon-forge-1.20.1-3.2.0.jar#170!/=fuzs.puzzleslib.impl.core.ForgeModContainer@47fcefb3, /workspaces/-MSP-3.0/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#216!/=fuzs.puzzleslib.impl.core.ForgeModContainer@236c098, /workspaces/-MSP-3.0/servidor_minecraft/mods/YetAnotherConfigLib-3.5.0+1.20.1-forge.jar#224!/=fuzs.puzzleslib.impl.core.ForgeModContainer@68e2d03e, /workspaces/-MSP-3.0/servidor_minecraft/mods/EasyEmerald-Forge-1.20.1-1.5.8.jar#187!/=fuzs.puzzleslib.impl.core.ForgeModContainer@120aa40b, /workspaces/-MSP-3.0/servidor_minecraft/mods/FallingTree-1.20.1-4.3.4.jar#191!/=fuzs.puzzleslib.impl.core.ForgeModContainer@32ab408e, /workspaces/-MSP-3.0/servidor_minecraft/mods/EnchantingInfuser-v8.0.2-1.20.1-Forge.jar#189!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6ad6443, /workspaces/-MSP-3.0/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#222!/=fuzs.puzzleslib.impl.core.ForgeModContainer@78b03788, /workspaces/-MSP-3.0/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.3.jar#201!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f5dfe69, /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215_/META-INF/jars/mixinsquared-forge-0.1.1.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@571a663c, /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#272!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a788fe0, /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#226!/=fuzs.puzzleslib.impl.core.ForgeModContainer@430df350, /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#227!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1373e3ee, /workspaces/-MSP-3.0/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#192!/=fuzs.puzzleslib.impl.core.ForgeModContainer@175c5c3a, /workspaces/-MSP-3.0/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar#218!/=fuzs.puzzleslib.impl.core.ForgeModContainer@69a5c6be, /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207!/=fuzs.puzzleslib.impl.core.ForgeModContainer@451e2fa9, /workspaces/-MSP-3.0/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#197!/=fuzs.puzzleslib.impl.core.ForgeModContainer@497ed877, /workspaces/-MSP-3.0/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar#193!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3cb6e0ee, /workspaces/-MSP-3.0/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#176!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7b6141f0, /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#229!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4fb64a52, /workspaces/-MSP-3.0/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#164!/=fuzs.puzzleslib.impl.core.ForgeModContainer@70b48eb3, /workspaces/-MSP-3.0/servidor_minecraft/mods/Dungeon Crawl-1.20.1-2.3.14.jar#183!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7b8ea1db, /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207_/META-INF/jars/mixinextras-forge-0.3.6.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@a91119b, /workspaces/-MSP-3.0/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2508-universal.jar#219!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77083e41, /workspaces/-MSP-3.0/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar#198!/=fuzs.puzzleslib.impl.core.ForgeModContainer@231df705, /workspaces/-MSP-3.0/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.5_halloween_event.jar#173!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2d130ac4, /workspaces/-MSP-3.0/servidor_minecraft/mods/chococraft-1.20.1-forge-0.9.11.jar#174!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2f0ccb34, /workspaces/-MSP-3.0/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#205!/=fuzs.puzzleslib.impl.core.ForgeModContainer@194012a2, /workspaces/-MSP-3.0/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#195!/=fuzs.puzzleslib.impl.core.ForgeModContainer@55296b50, /workspaces/-MSP-3.0/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#180!/=fuzs.puzzleslib.impl.core.ForgeModContainer@60591e1b, /workspaces/-MSP-3.0/servidor_minecraft/mods/citadel-2.6.0-1.20.1.jar#175!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29c53c4f, /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3009eed7, /workspaces/-MSP-3.0/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#179!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ee4706d, /workspaces/-MSP-3.0/servidor_minecraft/mods/deeperdarker-forge-1.20.1-1.2.1.jar#182!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6650a6c, /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_api-1.5.1+1.20.1-forge.jar#199!/=fuzs.puzzleslib.impl.core.ForgeModContainer@64279ab, /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171_/META-INF/jarjar/kuma-api-forge-20.1.8+1.20.1.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@794240e2, /workspaces/-MSP-3.0/servidor_minecraft/mods/jei-1.20.1-forge-15.20.0.102.jar#202!/=fuzs.puzzleslib.impl.core.ForgeModContainer@74a820bf, /workspaces/-MSP-3.0/servidor_minecraft/mods/dungeons-and-taverns-3.0.3.f[Forge].jar#184!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5a30722c, /workspaces/-MSP-3.0/servidor_minecraft/mods/alexsmobs-1.22.8.jar#166!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f2ac7e0, /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanWeaponry-1.20.1-forge-3.1.3-all.jar#213!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2484dbb7, /workspaces/-MSP-3.0/servidor_minecraft/mods/obscure_api-15.jar#210!/=fuzs.puzzleslib.impl.core.ForgeModContainer@111cba40, /workspaces/-MSP-3.0/servidor_minecraft/mods/nordic_structures-1.5.7-forge-1.20.1.jar#208!/=fuzs.puzzleslib.impl.core.ForgeModContainer@48e41b5d, /workspaces/-MSP-3.0/servidor_minecraft/mods/L_Enders_Cataclysm-2.05 - 1.20.1.jar#204!/=fuzs.puzzleslib.impl.core.ForgeModContainer@51e8d066}
+[01Dec2024 03:30:03.605] [main/INFO] [Puzzles Lib/]: Scheme for flywheel: /workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177!/
+[01Dec2024 03:30:03.606] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211!/
+[01Dec2024 03:30:03.606] [main/INFO] [Puzzles Lib/]: Scheme for alexscaves: /workspaces/-MSP-3.0/servidor_minecraft/mods/alexscaves-2.0.2.jar#165!/
+[01Dec2024 03:30:03.606] [main/INFO] [Puzzles Lib/]: Scheme for xpbook: /workspaces/-MSP-3.0/servidor_minecraft/mods/xptome-1.20.1-2.2.jar#223!/
+[01Dec2024 03:30:03.606] [main/INFO] [Puzzles Lib/]: Scheme for vanillaplustools: /workspaces/-MSP-3.0/servidor_minecraft/mods/vanillaplustools-1.20-1.0.jar#220!/
+[01Dec2024 03:30:03.607] [main/INFO] [Puzzles Lib/]: Scheme for hopour: /workspaces/-MSP-3.0/servidor_minecraft/mods/HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.jar#196!/
+[01Dec2024 03:30:03.607] [main/INFO] [Puzzles Lib/]: Scheme for torchmaster: /workspaces/-MSP-3.0/servidor_minecraft/mods/torchmaster-20.1.6.jar#217!/
+[01Dec2024 03:30:03.607] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#234!/
+[01Dec2024 03:30:03.607] [main/INFO] [Puzzles Lib/]: Scheme for journeymap: /workspaces/-MSP-3.0/servidor_minecraft/mods/journeymap-1.20.1-5.10.0-forge.jar#203!/
+[01Dec2024 03:30:03.607] [main/INFO] [Puzzles Lib/]: Scheme for structureessentials: /workspaces/-MSP-3.0/servidor_minecraft/mods/structureessentials-1.20.1-3.3.jar#214!/
+[01Dec2024 03:30:03.607] [main/INFO] [Puzzles Lib/]: Scheme for waystones: /workspaces/-MSP-3.0/servidor_minecraft/mods/waystones-forge-1.20-14.1.4.jar#221!/
+[01Dec2024 03:30:03.608] [main/INFO] [Puzzles Lib/]: Scheme for create: /workspaces/-MSP-3.0/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#177!/
+[01Dec2024 03:30:03.608] [main/INFO] [Puzzles Lib/]: Scheme for amendments: /workspaces/-MSP-3.0/servidor_minecraft/mods/amendments-1.20-1.2.11.jar#167!/
+[01Dec2024 03:30:03.609] [main/INFO] [Puzzles Lib/]: Scheme for easy_villagers: /workspaces/-MSP-3.0/servidor_minecraft/mods/easy-villagers-forge-1.20.1-1.1.4.jar#186!/
+[01Dec2024 03:30:03.609] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/-MSP-3.0/servidor_minecraft/mods/architectury-9.2.14-forge.jar#169!/
+[01Dec2024 03:30:03.609] [main/INFO] [Puzzles Lib/]: Scheme for elevatorid: /workspaces/-MSP-3.0/servidor_minecraft/mods/elevatorid-1.20.1-lex-1.9.jar#188!/
+[01Dec2024 03:30:03.609] [main/INFO] [Puzzles Lib/]: Scheme for supplementaries: /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for aquamirae: /workspaces/-MSP-3.0/servidor_minecraft/mods/aquamirae-6.API15.jar#168!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for deep_dark_regrowth: /workspaces/-MSP-3.0/servidor_minecraft/mods/Deep Dark Regrowth 1.2.6.1 - 1.20.1.jar#181!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for integrated_villages: /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_villages-1.0.1+1.20.1-forge (1).jar#200!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for goblintraders: /workspaces/-MSP-3.0/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar#194!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for dungeons_arise: /workspaces/-MSP-3.0/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar#185!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for betterarcheology: /workspaces/-MSP-3.0/servidor_minecraft/mods/betterarcheology-1.1.9-1.20.1.jar#172!/
+[01Dec2024 03:30:03.610] [main/INFO] [Puzzles Lib/]: Scheme for nyfsspiders: /workspaces/-MSP-3.0/servidor_minecraft/mods/nyfsspiders-forge-1.20.1-2.1.1.jar#209!/
+[01Dec2024 03:30:03.611] [main/INFO] [Puzzles Lib/]: Scheme for crust: /workspaces/-MSP-3.0/servidor_minecraft/mods/crust-1.20.1-2.3.3.jar#178!/
+[01Dec2024 03:30:03.611] [main/INFO] [Puzzles Lib/]: Scheme for spartanshields: /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar#212!/
+[01Dec2024 03:30:03.611] [main/INFO] [Puzzles Lib/]: Scheme for yungsapi: /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#225!/
+[01Dec2024 03:30:03.611] [main/INFO] [Puzzles Lib/]: Scheme for lionfishapi: /workspaces/-MSP-3.0/servidor_minecraft/mods/lionfishapi-1.9.jar#206!/
+[01Dec2024 03:30:03.612] [main/INFO] [Puzzles Lib/]: Scheme for awesomedungeon: /workspaces/-MSP-3.0/servidor_minecraft/mods/awesomedungeon-forge-1.20.1-3.2.0.jar#170!/
+[01Dec2024 03:30:03.612] [main/INFO] [Puzzles Lib/]: Scheme for graveyard: /workspaces/-MSP-3.0/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar#216!/
+[01Dec2024 03:30:03.612] [main/INFO] [Puzzles Lib/]: Scheme for yet_another_config_lib_v3: /workspaces/-MSP-3.0/servidor_minecraft/mods/YetAnotherConfigLib-3.5.0+1.20.1-forge.jar#224!/
+[01Dec2024 03:30:03.612] [main/INFO] [Puzzles Lib/]: Scheme for easy_emerald: /workspaces/-MSP-3.0/servidor_minecraft/mods/EasyEmerald-Forge-1.20.1-1.5.8.jar#187!/
+[01Dec2024 03:30:03.613] [main/INFO] [Puzzles Lib/]: Scheme for fallingtree: /workspaces/-MSP-3.0/servidor_minecraft/mods/FallingTree-1.20.1-4.3.4.jar#191!/
+[01Dec2024 03:30:03.613] [main/INFO] [Puzzles Lib/]: Scheme for enchantinginfuser: /workspaces/-MSP-3.0/servidor_minecraft/mods/EnchantingInfuser-v8.0.2-1.20.1-Forge.jar#189!/
+[01Dec2024 03:30:03.613] [main/INFO] [Puzzles Lib/]: Scheme for weaponmaster_ydm: /workspaces/-MSP-3.0/servidor_minecraft/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar#222!/
+[01Dec2024 03:30:03.613] [main/INFO] [Puzzles Lib/]: Scheme for jade: /workspaces/-MSP-3.0/servidor_minecraft/mods/Jade-1.20.1-forge-11.9.3.jar#201!/
+[01Dec2024 03:30:03.613] [main/INFO] [Puzzles Lib/]: Scheme for mixinsquared: /workspaces/-MSP-3.0/servidor_minecraft/mods/supplementaries-1.20-2.8.17.jar#215!/
+[01Dec2024 03:30:03.614] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/-MSP-3.0/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#211!/
+[01Dec2024 03:30:03.614] [main/INFO] [Puzzles Lib/]: Scheme for betterdungeons: /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#226!/
+[01Dec2024 03:30:03.614] [main/INFO] [Puzzles Lib/]: Scheme for betterstrongholds: /workspaces/-MSP-3.0/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#227!/
+[01Dec2024 03:30:03.614] [main/INFO] [Puzzles Lib/]: Scheme for framework: /workspaces/-MSP-3.0/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#192!/
+[01Dec2024 03:30:03.615] [main/INFO] [Puzzles Lib/]: Scheme for travelersbackpack: /workspaces/-MSP-3.0/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar#218!/
+[01Dec2024 03:30:03.615] [main/INFO] [Puzzles Lib/]: Scheme for moonlight: /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207!/
+[01Dec2024 03:30:03.615] [main/INFO] [Puzzles Lib/]: Scheme for iceandfire: /workspaces/-MSP-3.0/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar#197!/
+[01Dec2024 03:30:03.615] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/-MSP-3.0/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.7.jar#193!/
+[01Dec2024 03:30:03.615] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/-MSP-3.0/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#176!/
+[01Dec2024 03:30:03.616] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#229!/
+[01Dec2024 03:30:03.616] [main/INFO] [Puzzles Lib/]: Scheme for securitycraft: /workspaces/-MSP-3.0/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#164!/
+[01Dec2024 03:30:03.616] [main/INFO] [Puzzles Lib/]: Scheme for dungeoncrawl: /workspaces/-MSP-3.0/servidor_minecraft/mods/Dungeon Crawl-1.20.1-2.3.14.jar#183!/
+[01Dec2024 03:30:03.617] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/-MSP-3.0/servidor_minecraft/mods/moonlight-1.20-2.12.9-forge.jar#207!/
+[01Dec2024 03:30:03.617] [main/INFO] [Puzzles Lib/]: Scheme for twilightforest: /workspaces/-MSP-3.0/servidor_minecraft/mods/twilightforest-1.20.1-4.3.2508-universal.jar#219!/
+[01Dec2024 03:30:03.617] [main/INFO] [Puzzles Lib/]: Scheme for incendium: /workspaces/-MSP-3.0/servidor_minecraft/mods/Incendium_1.20.x_v5.3.5.jar#198!/
+[01Dec2024 03:30:03.617] [main/INFO] [Puzzles Lib/]: Scheme for born_in_chaos_v1: /workspaces/-MSP-3.0/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.5_halloween_event.jar#173!/
+[01Dec2024 03:30:03.617] [main/INFO] [Puzzles Lib/]: Scheme for chococraft: /workspaces/-MSP-3.0/servidor_minecraft/mods/chococraft-1.20.1-forge-0.9.11.jar#174!/
+[01Dec2024 03:30:03.617] [main/INFO] [Puzzles Lib/]: Scheme for libraryferret: /workspaces/-MSP-3.0/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar#205!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for gravestone: /workspaces/-MSP-3.0/servidor_minecraft/mods/gravestone-forge-1.20.1-1.0.15.jar#195!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/-MSP-3.0/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#180!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/-MSP-3.0/servidor_minecraft/mods/citadel-2.6.0-1.20.1.jar#175!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for balm: /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for cupboard: /workspaces/-MSP-3.0/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#179!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for deeperdarker: /workspaces/-MSP-3.0/servidor_minecraft/mods/deeperdarker-forge-1.20.1-1.2.1.jar#182!/
+[01Dec2024 03:30:03.618] [main/INFO] [Puzzles Lib/]: Scheme for integrated_api: /workspaces/-MSP-3.0/servidor_minecraft/mods/integrated_api-1.5.1+1.20.1-forge.jar#199!/
+[01Dec2024 03:30:03.619] [main/INFO] [Puzzles Lib/]: Scheme for kuma_api: /workspaces/-MSP-3.0/servidor_minecraft/mods/balm-forge-1.20.1-7.3.6-all.jar#171!/
+[01Dec2024 03:30:03.619] [main/INFO] [Puzzles Lib/]: Scheme for jei: /workspaces/-MSP-3.0/servidor_minecraft/mods/jei-1.20.1-forge-15.20.0.102.jar#202!/
+[01Dec2024 03:30:03.619] [main/INFO] [Puzzles Lib/]: Scheme for mr_dungeons_andtaverns: /workspaces/-MSP-3.0/servidor_minecraft/mods/dungeons-and-taverns-3.0.3.f[Forge].jar#184!/
+[01Dec2024 03:30:03.619] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/-MSP-3.0/servidor_minecraft/mods/alexsmobs-1.22.8.jar#166!/
+[01Dec2024 03:30:03.619] [main/INFO] [Puzzles Lib/]: Scheme for spartanweaponry: /workspaces/-MSP-3.0/servidor_minecraft/mods/SpartanWeaponry-1.20.1-forge-3.1.3-all.jar#213!/
+[01Dec2024 03:30:03.620] [main/INFO] [Puzzles Lib/]: Scheme for obscure_api: /workspaces/-MSP-3.0/servidor_minecraft/mods/obscure_api-15.jar#210!/
+[01Dec2024 03:30:03.620] [main/INFO] [Puzzles Lib/]: Scheme for nordic_structures: /workspaces/-MSP-3.0/servidor_minecraft/mods/nordic_structures-1.5.7-forge-1.20.1.jar#208!/
+[01Dec2024 03:30:03.620] [main/INFO] [Puzzles Lib/]: Scheme for cataclysm: /workspaces/-MSP-3.0/servidor_minecraft/mods/L_Enders_Cataclysm-2.05 - 1.20.1.jar#204!/
+[01Dec2024 03:30:03.624] [main/INFO] [Puzzles Lib/]: Loading 70 mods:
 	- alexscaves 2.0.2
 	- alexsmobs 1.22.8
 	- amendments 1.20-1.2.11
@@ -154,16 +154,17 @@
 	- xpbook 2.2
 	- yet_another_config_lib_v3 3.5.0+1.20.1-forge
 	- yungsapi 1.20-Forge-4.0.5
-[01Dec2024 03:24:48.266] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
-[01Dec2024 03:24:49.107] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
-[01Dec2024 03:24:49.937] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
-[01Dec2024 03:24:49.937] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
-[01Dec2024 03:24:50.265] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[01Dec2024 03:24:56.318] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[01Dec2024 03:30:03.630] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Dec2024 03:30:04.408] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[01Dec2024 03:30:05.392] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[01Dec2024 03:30:05.392] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[01Dec2024 03:30:05.806] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[01Dec2024 03:30:12.610] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[01Dec2024 03:24:56.885] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[01Dec2024 03:24:56.901] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@65be88ae on thread Thread[#32,modloading-worker-0,5,main]
-[01Dec2024 03:24:56.901] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+[01Dec2024 03:30:13.110] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[01Dec2024 03:30:13.120] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[01Dec2024 03:30:13.124] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@61f377d1 on thread Thread[#35,modloading-worker-0,5,main]
+[01Dec2024 03:30:13.125] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
 java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
@@ -207,61 +208,60 @@ java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.Re
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[01Dec2024 03:24:56.903] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
-[01Dec2024 03:24:56.911] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[01Dec2024 03:24:57.236] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[01Dec2024 03:24:57.247] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[01Dec2024 03:24:57.310] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[01Dec2024 03:24:57.311] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[01Dec2024 03:24:59.247] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[01Dec2024 03:24:59.812] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[01Dec2024 03:24:59.828] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
-[01Dec2024 03:24:59.833] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
-[01Dec2024 03:25:00.124] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[01Dec2024 03:25:00.140] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[01Dec2024 03:25:00.191] [modloading-worker-0/INFO] [crust/configs/]: First-time loading config file config/Crust/default_game_rules.toml
-[01Dec2024 03:25:00.201] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/-MSP-3.0/servidor_minecraft/config/yacl.json5'
-[01Dec2024 03:25:00.206] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[01Dec2024 03:25:00.214] [modloading-worker-0/INFO] [crust/configs/]: Started watching config file config/Crust/default_game_rules.toml for updates
-[01Dec2024 03:25:00.215] [modloading-worker-0/INFO] [crust/configs/]: First-time loading config file config/Crust/modes.toml
-[01Dec2024 03:25:00.218] [modloading-worker-0/INFO] [crust/configs/]: Started watching config file config/Crust/modes.toml for updates
-[01Dec2024 03:25:00.220] [Thread-2/INFO] [crust/configs/]: Reloading config file config/Crust/modes.toml
-[01Dec2024 03:25:00.415] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
-[01Dec2024 03:25:04.695] [main/INFO] [Moonlight/]: Initialized block sets in 31ms
-[01Dec2024 03:25:06.389] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[01Dec2024 03:25:06.400] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[01Dec2024 03:25:06.594] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[01Dec2024 03:25:06.596] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[01Dec2024 03:25:06.597] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[01Dec2024 03:25:06.661] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
-[01Dec2024 03:25:06.677] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[01Dec2024 03:25:06.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[01Dec2024 03:25:06.870] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[01Dec2024 03:25:06.882] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[01Dec2024 03:25:06.953] [main/INFO] [journeymap/]: Initializing Packet Registries
-[01Dec2024 03:25:06.995] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[01Dec2024 03:25:06.995] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[01Dec2024 03:25:06.996] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[01Dec2024 03:25:06.997] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[01Dec2024 03:25:07.102] [main/INFO] [Supplementaries/]: Finished mod setup in: [61, 1, 0, 0, 0, 0, 11, 6, 1] ms
-[01Dec2024 03:25:07.166] [main/INFO] [Moonlight/]: Initialized color sets in 44ms
-[01Dec2024 03:25:07.283] [main/INFO] [crust/]: Found Crust plugin at fathertoast.crust.common.api.impl.InternalCrustPlugin with plugin ID: crust:builtin_plugin
-[01Dec2024 03:25:07.321] [modloading-worker-0/INFO] [easy_emerald/]: Hello world from EasyEmerald
-[01Dec2024 03:25:07.321] [modloading-worker-0/INFO] [easy_emerald/]: EasyEmerald IMC [Hello world]
-[01Dec2024 03:25:07.334] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[01Dec2024 03:25:07.334] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[01Dec2024 03:25:07.390] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[01Dec2024 03:25:07.397] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[01Dec2024 03:25:07.398] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[01Dec2024 03:25:07.399] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[01Dec2024 03:25:07.411] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[01Dec2024 03:25:07.415] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[01Dec2024 03:25:07.417] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
-[01Dec2024 03:25:07.418] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[01Dec2024 03:25:07.419] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
-[01Dec2024 03:25:07.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[01Dec2024 03:25:07.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
-[01Dec2024 03:25:07.531] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Dec2024 03:30:13.128] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[01Dec2024 03:30:13.422] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[01Dec2024 03:30:13.489] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[01Dec2024 03:30:13.489] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[01Dec2024 03:30:13.504] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[01Dec2024 03:30:15.350] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[01Dec2024 03:30:15.987] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[01Dec2024 03:30:15.987] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[01Dec2024 03:30:15.989] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[01Dec2024 03:30:16.303] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Dec2024 03:30:16.310] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Dec2024 03:30:16.312] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/-MSP-3.0/servidor_minecraft/config/yacl.json5'
+[01Dec2024 03:30:16.372] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[01Dec2024 03:30:16.373] [modloading-worker-0/INFO] [crust/configs/]: First-time loading config file config/Crust/default_game_rules.toml
+[01Dec2024 03:30:16.407] [modloading-worker-0/INFO] [crust/configs/]: Started watching config file config/Crust/default_game_rules.toml for updates
+[01Dec2024 03:30:16.407] [modloading-worker-0/INFO] [crust/configs/]: First-time loading config file config/Crust/modes.toml
+[01Dec2024 03:30:16.410] [modloading-worker-0/INFO] [crust/configs/]: Started watching config file config/Crust/modes.toml for updates
+[01Dec2024 03:30:16.410] [Thread-2/INFO] [crust/configs/]: Reloading config file config/Crust/modes.toml
+[01Dec2024 03:30:16.580] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[01Dec2024 03:30:20.858] [main/INFO] [Moonlight/]: Initialized block sets in 18ms
+[01Dec2024 03:30:22.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[01Dec2024 03:30:22.433] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[01Dec2024 03:30:22.574] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[01Dec2024 03:30:22.575] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[01Dec2024 03:30:22.576] [Thread-2/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[01Dec2024 03:30:22.613] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[01Dec2024 03:30:22.619] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[01Dec2024 03:30:22.741] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[01Dec2024 03:30:22.761] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[01Dec2024 03:30:22.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[01Dec2024 03:30:22.833] [main/INFO] [journeymap/]: Initializing Packet Registries
+[01Dec2024 03:30:22.852] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[01Dec2024 03:30:22.853] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[01Dec2024 03:30:22.853] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[01Dec2024 03:30:22.854] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[01Dec2024 03:30:23.028] [main/INFO] [Supplementaries/]: Finished mod setup in: [41, 1, 0, 0, 0, 0, 18, 12, 2] ms
+[01Dec2024 03:30:23.081] [main/INFO] [Moonlight/]: Initialized color sets in 42ms
+[01Dec2024 03:30:23.172] [main/INFO] [crust/]: Found Crust plugin at fathertoast.crust.common.api.impl.InternalCrustPlugin with plugin ID: crust:builtin_plugin
+[01Dec2024 03:30:23.204] [modloading-worker-0/INFO] [easy_emerald/]: Hello world from EasyEmerald
+[01Dec2024 03:30:23.205] [modloading-worker-0/INFO] [easy_emerald/]: EasyEmerald IMC [Hello world]
+[01Dec2024 03:30:23.221] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[01Dec2024 03:30:23.229] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[01Dec2024 03:30:23.289] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[01Dec2024 03:30:23.297] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[01Dec2024 03:30:23.298] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[01Dec2024 03:30:23.299] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[01Dec2024 03:30:23.311] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[01Dec2024 03:30:23.315] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[01Dec2024 03:30:23.317] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[01Dec2024 03:30:23.319] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[01Dec2024 03:30:23.320] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[01Dec2024 03:30:23.418] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[01Dec2024 03:30:23.419] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[01Dec2024 03:30:23.450] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -276,16 +276,16 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[01Dec2024 03:25:07.532] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[01Dec2024 03:25:07.625] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.0 Target: 5.10.3
-[01Dec2024 03:25:07.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[01Dec2024 03:25:07.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.14 Target: 9.1.16
-[01Dec2024 03:25:07.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
-[01Dec2024 03:25:07.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
-[01Dec2024 03:25:07.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Dec2024 03:25:07.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[01Dec2024 03:25:07.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[01Dec2024 03:25:07.915] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Dec2024 03:30:23.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[01Dec2024 03:30:23.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.0 Target: 5.10.3
+[01Dec2024 03:30:23.531] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[01Dec2024 03:30:23.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 9.1.14 Target: 9.1.16
+[01Dec2024 03:30:23.593] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[01Dec2024 03:30:23.605] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[01Dec2024 03:30:23.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Dec2024 03:30:23.742] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[01Dec2024 03:30:23.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[01Dec2024 03:30:24.019] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -300,28 +300,28 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[01Dec2024 03:25:07.916] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
-[01Dec2024 03:25:07.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-2.8.17 Target: null
-[01Dec2024 03:25:07.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[01Dec2024 03:25:07.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.9 Target: null
-[01Dec2024 03:25:07.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
-[01Dec2024 03:25:08.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.4 Target: 1.20.1-1.1.23
-[01Dec2024 03:25:08.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[01Dec2024 03:25:08.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
-[01Dec2024 03:25:08.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[01Dec2024 03:25:08.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
-[01Dec2024 03:25:08.707] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[01Dec2024 03:25:08.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.10 Target: 1.9.12
-[01Dec2024 03:25:08.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
-[01Dec2024 03:25:08.965] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
-[01Dec2024 03:25:08.965] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[01Dec2024 03:25:08.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.20 Target: 8.1.25
-[01Dec2024 03:25:08.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[01Dec2024 03:25:09.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
-[01Dec2024 03:25:09.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
-[01Dec2024 03:25:09.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: OUTDATED Current: 8.0.2 Target: 8.0.3
-[01Dec2024 03:25:09.354] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
-[01Dec2024 03:25:09.367] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Dec2024 03:30:24.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[01Dec2024 03:30:24.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-2.8.17 Target: null
+[01Dec2024 03:30:24.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[01Dec2024 03:30:24.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.12.9 Target: null
+[01Dec2024 03:30:24.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[01Dec2024 03:30:24.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.4 Target: 1.20.1-1.1.23
+[01Dec2024 03:30:24.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[01Dec2024 03:30:24.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[01Dec2024 03:30:24.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[01Dec2024 03:30:24.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.15 Target: 1.20.1-1.0.23
+[01Dec2024 03:30:24.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Dec2024 03:30:24.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.9.10 Target: 1.9.12
+[01Dec2024 03:30:24.938] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[01Dec2024 03:30:25.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[01Dec2024 03:30:25.019] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[01Dec2024 03:30:25.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.20 Target: 8.1.25
+[01Dec2024 03:30:25.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[01Dec2024 03:30:25.368] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA_OUTDATED Current: 0.7.6 Target: 0.7.12
+[01Dec2024 03:30:25.368] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[01Dec2024 03:30:25.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: OUTDATED Current: 8.0.2 Target: 8.0.3
+[01Dec2024 03:30:25.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[01Dec2024 03:30:25.402] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -336,51 +336,51 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[01Dec2024 03:25:12.540] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Dec2024 03:25:16.988] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23229!/assets/.mcassetsroot' uses unexpected schema
-[01Dec2024 03:25:16.989] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23229!/data/.mcassetsroot' uses unexpected schema
-[01Dec2024 03:25:17.164] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 43 ms
-[01Dec2024 03:25:17.679] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.686] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.690] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.700] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.703] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.710] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.711] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.711] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
-[01Dec2024 03:25:17.713] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
-[01Dec2024 03:25:19.990] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
-[01Dec2024 03:25:20.030] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[01Dec2024 03:25:20.211] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:village as it is missing following references: #integrated_villages:collections/villages (from integrated_villages-1.0.1+1.20.1-forge (1).jar)
-[01Dec2024 03:25:20.212] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:way_sign_destinations as it is missing following references: #minecraft:village (from supplementaries-1.20-2.8.17.jar)
-[01Dec2024 03:25:20.212] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:adventure_map_destinations as it is missing following references: #minecraft:village (from supplementaries-1.20-2.8.17.jar)
-[01Dec2024 03:25:20.309] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:skreechers_can_spawn_wardens as it is missing following references: deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1.jar)
-[01Dec2024 03:25:20.314] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag integrated_api:collections/any_taiga as it is missing following references: #repurposed_structures:collections/taigas (from integrated_api-1.5.1+1.20.1-forge.jar)
-[01Dec2024 03:25:20.315] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag integrated_villages:collections/any_taiga as it is missing following references: #repurposed_structures:collections/taigas (from integrated_villages-1.0.1+1.20.1-forge (1).jar)
-[01Dec2024 03:25:20.994] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
-[01Dec2024 03:25:21.283] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
-[01Dec2024 03:25:21.418] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction/]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
-[01Dec2024 03:25:21.531] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
-[01Dec2024 03:25:21.637] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction/]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
-[01Dec2024 03:25:21.740] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
-[01Dec2024 03:25:21.748] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
-[01Dec2024 03:25:21.749] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
-[01Dec2024 03:25:21.750] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[01Dec2024 03:25:21.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
-[01Dec2024 03:25:21.751] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[01Dec2024 03:25:21.751] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
-[01Dec2024 03:25:21.762] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[01Dec2024 03:25:21.763] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
-[01Dec2024 03:25:21.767] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
-[01Dec2024 03:25:21.767] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
-[01Dec2024 03:25:21.768] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[01Dec2024 03:25:21.774] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
-[01Dec2024 03:25:21.774] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
-[01Dec2024 03:25:21.780] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[01Dec2024 03:25:21.781] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
-[01Dec2024 03:25:21.785] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[01Dec2024 03:25:21.785] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
-[01Dec2024 03:25:21.795] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:slice_map
+[01Dec2024 03:30:28.818] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Dec2024 03:30:33.294] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23229!/assets/.mcassetsroot' uses unexpected schema
+[01Dec2024 03:30:33.295] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/-MSP-3.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23229!/data/.mcassetsroot' uses unexpected schema
+[01Dec2024 03:30:33.452] [main/INFO] [Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 39 ms
+[01Dec2024 03:30:34.088] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.093] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.097] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.109] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.111] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.118] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.118] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.119] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[01Dec2024 03:30:34.120] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[01Dec2024 03:30:36.026] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[01Dec2024 03:30:36.071] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[01Dec2024 03:30:36.167] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:village as it is missing following references: #integrated_villages:collections/villages (from integrated_villages-1.0.1+1.20.1-forge (1).jar)
+[01Dec2024 03:30:36.168] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:way_sign_destinations as it is missing following references: #minecraft:village (from supplementaries-1.20-2.8.17.jar)
+[01Dec2024 03:30:36.168] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag supplementaries:adventure_map_destinations as it is missing following references: #minecraft:village (from supplementaries-1.20-2.8.17.jar)
+[01Dec2024 03:30:36.285] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag alexsmobs:skreechers_can_spawn_wardens as it is missing following references: deeperdarker:otherside (from deeperdarker-forge-1.20.1-1.2.1.jar)
+[01Dec2024 03:30:36.287] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag integrated_api:collections/any_taiga as it is missing following references: #repurposed_structures:collections/taigas (from integrated_api-1.5.1+1.20.1-forge.jar)
+[01Dec2024 03:30:36.288] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag integrated_villages:collections/any_taiga as it is missing following references: #repurposed_structures:collections/taigas (from integrated_villages-1.0.1+1.20.1-forge (1).jar)
+[01Dec2024 03:30:37.058] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[01Dec2024 03:30:37.225] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[01Dec2024 03:30:37.375] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction/]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[01Dec2024 03:30:37.507] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[01Dec2024 03:30:37.652] [Worker-Main-2/ERROR] [net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction/]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[01Dec2024 03:30:37.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[01Dec2024 03:30:37.795] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[01Dec2024 03:30:37.796] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[01Dec2024 03:30:37.798] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[01Dec2024 03:30:37.798] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[01Dec2024 03:30:37.799] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[01Dec2024 03:30:37.800] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[01Dec2024 03:30:37.813] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[01Dec2024 03:30:37.814] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[01Dec2024 03:30:37.820] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[01Dec2024 03:30:37.821] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[01Dec2024 03:30:37.823] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[01Dec2024 03:30:37.831] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[01Dec2024 03:30:37.831] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[01Dec2024 03:30:37.840] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[01Dec2024 03:30:37.840] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[01Dec2024 03:30:37.844] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[01Dec2024 03:30:37.844] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[01Dec2024 03:30:37.855] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe supplementaries:slice_map
 com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:127) ~[server-1.20.1-20230612.114412-srg.jar%23229!/:?]
 	at net.minecraftforge.common.crafting.conditions.TagEmptyCondition$Serializer.read(TagEmptyCondition.java:68) ~[forge-1.20.1-47.3.7-universal.jar%23234!/:?]
@@ -413,124 +413,137 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[01Dec2024 03:25:21.800] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
-[01Dec2024 03:25:21.801] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
-[01Dec2024 03:25:21.807] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[01Dec2024 03:25:21.811] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[01Dec2024 03:25:21.811] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
-[01Dec2024 03:25:21.815] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[01Dec2024 03:25:21.815] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
-[01Dec2024 03:25:21.816] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[01Dec2024 03:25:21.817] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
-[01Dec2024 03:25:21.818] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[01Dec2024 03:25:21.820] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
-[01Dec2024 03:25:21.820] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
-[01Dec2024 03:25:21.824] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[01Dec2024 03:25:21.824] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
-[01Dec2024 03:25:21.830] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[01Dec2024 03:25:21.830] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
-[01Dec2024 03:25:21.830] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
-[01Dec2024 03:25:21.830] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
-[01Dec2024 03:25:21.833] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
-[01Dec2024 03:25:21.833] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
-[01Dec2024 03:25:21.841] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
-[01Dec2024 03:25:21.841] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
-[01Dec2024 03:25:21.843] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[01Dec2024 03:25:21.847] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
-[01Dec2024 03:25:21.848] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
-[01Dec2024 03:25:21.850] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
-[01Dec2024 03:25:21.859] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
-[01Dec2024 03:25:21.859] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
-[01Dec2024 03:25:21.865] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
-[01Dec2024 03:25:21.865] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
-[01Dec2024 03:25:21.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[01Dec2024 03:25:21.867] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[01Dec2024 03:25:21.870] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[01Dec2024 03:25:21.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
-[01Dec2024 03:25:21.912] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[01Dec2024 03:25:21.948] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
-[01Dec2024 03:25:21.982] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[01Dec2024 03:25:22.033] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[01Dec2024 03:25:22.043] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[01Dec2024 03:25:22.112] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5469 advancements
-[01Dec2024 03:25:22.122] [main/INFO] [Dungeon Crawl/]: Loading data...
-[01Dec2024 03:25:22.347] [main/INFO] [Dungeon Crawl/]: Done.
-[01Dec2024 03:25:22.349] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[01Dec2024 03:25:22.394] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
-[01Dec2024 03:25:22.413] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[01Dec2024 03:25:22.423] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[01Dec2024 03:25:22.456] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/structure] are present in data pack: minecraft:village
-[01Dec2024 03:25:22.460] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[01Dec2024 03:25:26.147] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 5.488262ms
-[01Dec2024 03:25:26.153] [main/INFO] [Moonlight/]: Applied 7 data villager trades
-[01Dec2024 03:25:26.176] [main/INFO] [Supplementaries/]: Finished additional setup in 16 ms
-[01Dec2024 03:25:27.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Dec2024 03:25:27.054] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Dec2024 03:25:27.054] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Dec2024 03:25:27.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Dec2024 03:25:27.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Dec2024 03:25:27.205] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Dec2024 03:25:27.286] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[01Dec2024 03:25:27.287] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[01Dec2024 03:25:27.287] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[01Dec2024 03:25:27.300] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
-[01Dec2024 03:25:27.301] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
-[01Dec2024 03:25:27.303] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
-[01Dec2024 03:25:27.306] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
-[01Dec2024 03:25:27.515] [Server thread/INFO] [Framework/]: Loading server configs...
-[01Dec2024 03:25:27.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Dec2024 03:25:28.910] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[01Dec2024 03:25:34.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Dec2024 03:25:39.199] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.227] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.250] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.311] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.314] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.334] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.346] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.359] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.370] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.379] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.408] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:39.904] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:41.120] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:41.122] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 03:25:41.402] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[01Dec2024 03:25:41.902] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[01Dec2024 03:25:42.404] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8002 ms
-[01Dec2024 03:25:42.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.120s)! For help, type "help"
-[01Dec2024 03:25:42.471] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Dec2024 03:25:42.530] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[01Dec2024 03:25:42.530] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[01Dec2024 03:26:03.740] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AbrahamUps is 770a249a-151d-44aa-8e30-622ebfdd7032
-[01Dec2024 03:26:13.881] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:62389] logged in with entity id 861 at (-27.294941510087156, 113.0, -16.350023549797186)
-[01Dec2024 03:26:14.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
-[01Dec2024 03:26:14.448] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
-[01Dec2024 03:27:14.012] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
-[01Dec2024 03:27:14.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
-[01Dec2024 03:27:33.335] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AbrahamUps is 770a249a-151d-44aa-8e30-622ebfdd7032
-[01Dec2024 03:27:56.825] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:62441] logged in with entity id 1079 at (-27.294941510087156, 113.0, -16.350023549797186)
-[01Dec2024 03:27:56.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
-[01Dec2024 03:27:56.931] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
-[01Dec2024 03:28:56.966] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Timed out
-[01Dec2024 03:28:56.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
-[01Dec2024 03:29:02.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[01Dec2024 03:29:02.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Dec2024 03:29:02.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Dec2024 03:29:02.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Dec2024 03:29:02.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01Dec2024 03:29:03.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[01Dec2024 03:29:03.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[01Dec2024 03:29:03.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01Dec2024 03:29:03.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[01Dec2024 03:29:03.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01Dec2024 03:29:03.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Dec2024 03:29:03.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[01Dec2024 03:29:03.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[01Dec2024 03:29:03.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Dec2024 03:29:03.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[01Dec2024 03:29:03.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Dec2024 03:29:03.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Dec2024 03:29:03.341] [Server thread/INFO] [Framework/]: Unloading server configs...
-[01Dec2024 03:29:03.342] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[01Dec2024 03:29:03.344] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[01Dec2024 03:30:37.866] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[01Dec2024 03:30:37.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[01Dec2024 03:30:37.876] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[01Dec2024 03:30:37.884] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[01Dec2024 03:30:37.885] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[01Dec2024 03:30:37.889] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[01Dec2024 03:30:37.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[01Dec2024 03:30:37.891] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[01Dec2024 03:30:37.892] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[01Dec2024 03:30:37.894] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[01Dec2024 03:30:37.897] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[01Dec2024 03:30:37.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[01Dec2024 03:30:37.903] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[01Dec2024 03:30:37.904] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[01Dec2024 03:30:37.912] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[01Dec2024 03:30:37.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[01Dec2024 03:30:37.913] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[01Dec2024 03:30:37.914] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[01Dec2024 03:30:37.917] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[01Dec2024 03:30:37.918] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[01Dec2024 03:30:37.942] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[01Dec2024 03:30:37.943] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[01Dec2024 03:30:37.945] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[01Dec2024 03:30:37.951] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[01Dec2024 03:30:37.952] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[01Dec2024 03:30:37.955] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[01Dec2024 03:30:37.966] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[01Dec2024 03:30:37.966] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[01Dec2024 03:30:37.975] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[01Dec2024 03:30:37.976] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[01Dec2024 03:30:37.977] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[01Dec2024 03:30:37.979] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[01Dec2024 03:30:37.985] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[01Dec2024 03:30:37.990] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
+[01Dec2024 03:30:38.044] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[01Dec2024 03:30:38.088] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement supplementaries:recipes/planter_rich: Unknown item id 'farmersdelight:rich_soil'
+[01Dec2024 03:30:38.184] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[01Dec2024 03:30:38.226] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[01Dec2024 03:30:38.258] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[01Dec2024 03:30:38.354] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5469 advancements
+[01Dec2024 03:30:38.364] [main/INFO] [Dungeon Crawl/]: Loading data...
+[01Dec2024 03:30:38.739] [main/INFO] [Dungeon Crawl/]: Done.
+[01Dec2024 03:30:38.742] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[01Dec2024 03:30:38.754] [main/INFO] [Supplementaries/]: Loaded 27 flute songs
+[01Dec2024 03:30:38.772] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[01Dec2024 03:30:38.779] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[01Dec2024 03:30:38.821] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/structure] are present in data pack: minecraft:village
+[01Dec2024 03:30:38.825] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[01Dec2024 03:30:42.533] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 4.851235ms
+[01Dec2024 03:30:42.539] [main/INFO] [Moonlight/]: Applied 7 data villager trades
+[01Dec2024 03:30:42.560] [main/INFO] [Supplementaries/]: Finished additional setup in 15 ms
+[01Dec2024 03:30:43.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Dec2024 03:30:43.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Dec2024 03:30:43.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Dec2024 03:30:43.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Dec2024 03:30:43.536] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Dec2024 03:30:43.581] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Dec2024 03:30:43.707] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[01Dec2024 03:30:43.707] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[01Dec2024 03:30:43.708] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[01Dec2024 03:30:43.723] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[01Dec2024 03:30:43.725] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[01Dec2024 03:30:43.728] [Thread-2/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[01Dec2024 03:30:43.968] [Server thread/INFO] [Framework/]: Loading server configs...
+[01Dec2024 03:30:44.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Dec2024 03:30:48.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Dec2024 03:30:57.985] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.987] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.988] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.988] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.989] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.990] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.990] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.991] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.992] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.993] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.995] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.996] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.998] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:57.999] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.000] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.001] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.002] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.005] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.006] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.071] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:30:58.571] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[01Dec2024 03:30:59.072] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[01Dec2024 03:30:59.674] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11603 ms
+[01Dec2024 03:30:59.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.972s)! For help, type "help"
+[01Dec2024 03:30:59.737] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Dec2024 03:30:59.773] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[01Dec2024 03:30:59.774] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[01Dec2024 03:31:05.328] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AbrahamUps is 770a249a-151d-44aa-8e30-622ebfdd7032
+[01Dec2024 03:31:10.269] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:62618] logged in with entity id 862 at (-27.294941510087156, 113.0, -16.350023549797186)
+[01Dec2024 03:31:10.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
+[01Dec2024 03:31:10.697] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
+[01Dec2024 03:56:02.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
+[01Dec2024 03:56:02.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
+[01Dec2024 03:56:47.366] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AbrahamUps is 770a249a-151d-44aa-8e30-622ebfdd7032
+[01Dec2024 03:57:15.343] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:63332] logged in with entity id 5205 at (-20.5, 110.0, -7.5)
+[01Dec2024 03:57:15.430] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
+[01Dec2024 03:57:15.576] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
+[01Dec2024 03:57:32.096] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
+[01Dec2024 03:57:32.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
+[01Dec2024 03:57:51.832] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AbrahamUps is 770a249a-151d-44aa-8e30-622ebfdd7032
+[01Dec2024 03:57:57.819] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:63371] logged in with entity id 5277 at (-20.5, 110.0, -7.5)
+[01Dec2024 03:57:57.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
+[01Dec2024 03:57:57.904] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
+[01Dec2024 04:06:28.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AbrahamUps: Set own game mode to Creative Mode]
+[01Dec2024 04:17:05.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [AbrahamUps: Set own game mode to Survival Mode]
+[01Dec2024 04:17:11.541] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: AbrahamUps lost connection: Disconnected
+[01Dec2024 04:17:11.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps left the game
+[01Dec2024 04:17:15.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Dec2024 04:17:15.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Dec2024 04:17:15.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Dec2024 04:17:15.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Dec2024 04:17:15.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Dec2024 04:17:15.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[01Dec2024 04:17:15.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Dec2024 04:17:15.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[01Dec2024 04:17:15.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Dec2024 04:17:15.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[01Dec2024 04:17:16.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Dec2024 04:17:16.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[01Dec2024 04:17:16.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Dec2024 04:17:16.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[01Dec2024 04:17:16.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Dec2024 04:17:16.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[01Dec2024 04:17:16.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Dec2024 04:17:16.172] [Server thread/INFO] [Framework/]: Unloading server configs...
+[01Dec2024 04:17:16.173] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[01Dec2024 04:17:16.176] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
