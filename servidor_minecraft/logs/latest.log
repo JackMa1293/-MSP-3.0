@@ -504,3 +504,4 @@ com.google.gson.JsonSyntaxException: Missing tag, expected to find a string
 [01Dec2024 02:46:59.726] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: AbrahamUps[/100.73.228.2:61140] logged in with entity id 862 at (-28.092597471045565, 107.0, 0.8866557187655061)
 [01Dec2024 02:46:59.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps joined the game
 [01Dec2024 02:47:00.101] [Server thread/INFO] [Jade/]: Syncing config to AbrahamUps (770a249a-151d-44aa-8e30-622ebfdd7032)
+[01Dec2024 03:04:11.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: AbrahamUps discovered the floor was lava
